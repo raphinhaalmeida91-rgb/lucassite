@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(https://3.bp.blogspot.com/-2LsZiyFnF4Q/WvyXYFUaMpI/AAAAAAAAroA/LqaKRoT0Qj8OzAyWyFrwUbK4N9zat1RUQCLcBGAs/s1600/Barbie-DreamhouseAdventures-cartoon_banner.jpg);
+}
+
+header {
+    background-color: #cc0f93;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    cursor:grab;
+}
+.box1 {
+    width: 33%;
+    height: 600px;
+    background-color: #4b00fa;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box2 {
+    width: 33%;
+    height: 600px;
+    background-color: #4CAF50;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box3 {
+    width: 33%;
+    height: 600px;
+    background-color: #fa6400;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* HOVER */
+
+.box1:hover {
+    background-color: rgb(220, 20, 130);
+    transform: rotate(360deg);
+    transition: 5s;
+    height: 600px;
+    width: 50%;
+}
+
+.box2:hover {
+    background-color: rgb(220, 20, 137);
+    filter: blur(5px);
+    transition: 5s;
+    height: 600px;
+    width: 50%;
+}
+
+.box3:hover {
+    background-color: rgb(220, 20, 120);
+    transform: scale(1.5);
+    transition: 5s;
+    height: 600px;
+    width: 50%;
+}
+
+.imagem {
+    text-align: center;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #cc0f93;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+}
