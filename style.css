@@ -2,100 +2,75 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: url(https://3.bp.blogspot.com/-2LsZiyFnF4Q/WvyXYFUaMpI/AAAAAAAAroA/LqaKRoT0Qj8OzAyWyFrwUbK4N9zat1RUQCLcBGAs/s1600/Barbie-DreamhouseAdventures-cartoon_banner.jpg);
+    background-size: cover;
+    background-position: center;
 }
+
 
 header {
     background-color: #cc0f93;
-    color: rgb(0, 0, 0);
+    color: black;
     text-align: center;
     padding: 20px;
 }
 
-main {
-    padding: 50px;
-}
 
 .container {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 20px;
-    cursor:grab;
+    gap: 10px;
+    padding: 50px;
 }
-.box1 {
+
+
+.box1, .box2, .box3 {
     width: 33%;
     height: 600px;
-    background-color: #4b00fa;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 24px;
+    transition: all 0.5s ease;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.box2 {
-    width: 5%;
-    height: 100px;
-    background-color: #4CAF50;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.box3 {
-    width: 33%;
-    height: 600px;
-    background-color: #fa6400;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+.box1 { background-color: #4b00fa; }
+.box2 { background-color: #4CAF50; }
+.box3 { background-color: #fa6400; }
 
-/* HOVER */
 
 .box1:hover {
-    background-color: rgb(220, 20, 130);
-    transform: rotate(360deg);
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.dx7l6EyGK5wDxLFwscslHQHaHT?r=0&pid=ImgDet&w=474&h=467&rs=1&o=7&rm=3");
+     transform: rotate(360deg);
     transition: 5s;
-    height: 200px;
-    width: 50%;
-    background:url(https://tse2.mm.bing.net/th/id/OIP.dx7l6EyGK5wDxLFwscslHQHaHT?r=0&pid=ImgDet&w=474&h=467&rs=1&o=7&rm=3);
-     background-repeat: no-repeat;
 }
 
 .box2:hover {
-    background-color: rgb(220, 20, 137);
+    background-image: url("https://i.pinimg.com/originals/45/3f/d3/453fd365241045576fab90347544cbce.jpg");
+    transform: scale(1.05);
     filter: blur(5px);
     transition: 5s;
-    height: 600px;
-    width: 50%;
-    background:url(https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6545/6545068ld.jpg);
-     background-repeat: no-repeat;
 }
 
 .box3:hover {
-    background-color: rgb(220, 20, 120);
+    background-image: url("https://www.youloveit.com/uploads/posts/2023-06/1685593695_youloveit_com_barbie_the_movie_pink_western_doll2.jpg");
     transform: scale(1.5);
     transition: 5s;
-    height: 600px;
-    width: 50%;
-    background:url(https://www.youloveit.com/uploads/posts/2023-06/1685593695_youloveit_com_barbie_the_movie_pink_western_doll2.jpg);
-     background-repeat: no-repeat;
 }
 
 
-.imagem {
-    text-align: center;
+.box1:hover, .box2:hover, .box3:hover {
+    text-shadow: 2px 2px 5px black;
 }
 
-.imagem img {
-    max-width: 100%;
-    height: auto;
-}
 
 footer {
     background-color: #cc0f93;
-    color: rgb(0, 0, 0);
+    color: black;
     text-align: center;
     padding: 10px;
 }
