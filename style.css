@@ -59,6 +59,7 @@ main {
     transition: 5s;
     height: 600px;
     width: 50%;
+    background:url(https://tse2.mm.bing.net/th/id/OIP.dx7l6EyGK5wDxLFwscslHQHaHT?r=0&pid=ImgDet&w=474&h=467&rs=1&o=7&rm=3);
 }
 
 .box2:hover {
@@ -67,6 +68,7 @@ main {
     transition: 5s;
     height: 600px;
     width: 50%;
+    background:url(https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6545/6545068ld.jpg);
 }
 
 .box3:hover {
@@ -75,6 +77,7 @@ main {
     transition: 5s;
     height: 600px;
     width: 50%;
+    background:url(https://www.youloveit.com/uploads/posts/2023-06/1685593695_youloveit_com_barbie_the_movie_pink_western_doll2.jpg);
 }
 
 .imagem {
